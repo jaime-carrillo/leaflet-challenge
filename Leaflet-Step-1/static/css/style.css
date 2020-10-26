@@ -3,8 +3,28 @@ body {
   margin: 0;
 }
 
-#map,
+#mapid,
 body,
 html {
   height: 100%;
+}
+
+.legend {
+  padding: 12px;
+  font: 18px Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #080808;
+  background: #eeeded;
+  /* background: rgba(255,255,255, 0.8); */
+  border-radius: 5px;
+  /* box-shadow: 0 0 15px rgba 0, 0, 0, 0.2; */
+}
+
+.legend li {
+  /* width: 14px; */
+  /* height: 14px; */
+  float: center;
+  font-weight: bolder;
+  color: #070707;
+  font: 20px Arial, Helvetica, sans-serif;
 }
